@@ -1,0 +1,10 @@
+<b><h2>C++ Multi-line Comments</h2></b>
+Multi-line comments start with /* and ends with */.
+
+Any text between /* and */ will be ignored by the compiler:
+
+
+<b><h4>Example : </h4></b>
+/* The code below will print the words Hello World!
+to the screen, and it is amazing */
+cout << "Hello World!";

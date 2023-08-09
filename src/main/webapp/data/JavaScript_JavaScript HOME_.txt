@@ -1,0 +1,25 @@
+</b><h1>JavaScript Introduction</h1></b>
+
+JavaScript is the world's most popular programming language.
+
+JavaScript is the programming language of the Web.
+
+JavaScript is easy to learn.
+
+This tutorial will teach you JavaScript from basic to advanced.
+
+
+<b><h2>JavaScript Can Change HTML Content</h2></b>
+One of many JavaScript HTML methods is getElementById().
+
+The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":
+
+
+<b><h4>Example</h4></b>
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+JavaScript accepts both double and single quotes:
+
+document.getElementById('demo').innerHTML = 'Hello JavaScript';
+
+
