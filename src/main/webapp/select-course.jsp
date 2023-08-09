@@ -34,7 +34,7 @@
 							ResultSet resultSet = null;
 							
 							try{ 
-							connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root", "1234");
+							connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/elearningportal", "root", "root");
 							statement=connection.createStatement();
 							String sql = "SELECT * FROM courses WHERE popularity='popular'";
 							
@@ -48,7 +48,7 @@
 										<a href="#" class="img" style="background-image: url(images/<%= filename %>);">
 											<div class="text">
 												<h3><%= resultSet.getString("cname") %></h3>
-												<span>8 Tours</span>
+												<!-- <span>8 Tours</span> -->
 											</div>
 										</a>
 									</div>
