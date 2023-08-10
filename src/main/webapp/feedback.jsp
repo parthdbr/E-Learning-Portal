@@ -27,9 +27,9 @@
 <% 
 String driver = "com.mysql.jdbc.Driver";
 String connectionUrl = "jdbc:mysql://localhost:3306/";
-String database = "project";
+String database = "elearningportal";
 String userid = "root";
-String password = "1234";
+String password = "root";
 try {
 Class.forName(driver);
 } catch (ClassNotFoundException e) {

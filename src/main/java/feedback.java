@@ -83,7 +83,7 @@ public class feedback extends HttpServlet {
     			 
     			 if(mail.equals(m)) {
     				 out.print("mails matched "+rid+" "+m);
-        			 String sql1 = "insert into feedback (reg_id,name,msg) VALUES ('"+rid+"','"+name+"','"+msg+"')";
+        			 String sql1 = "insert into feedback (rid,name,msg) VALUES ('"+rid+"','"+name+"','"+msg+"')";
         			 stmt.executeUpdate(sql1);
         			 response.sendRedirect("index.jsp?r=true");
         		 }else {

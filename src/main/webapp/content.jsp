@@ -70,7 +70,7 @@ try{
 	    <div class="dropdown-menu">
 	   <%
 	   						try{
-							connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root", "1234");
+							connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/elearningportal","root","root");
 							statement=connection.createStatement();
 							String sql1 = "SELECT * FROM sub_topic where mainid='"+mid+"'";
 							
@@ -121,7 +121,7 @@ try{
 							}
 							connection.close();
 		} catch (Exception e) {
-		e.printStackTrace();
+			e.printStackTrace();
 		}
 		//out.print(filename);
 		FileInputStream f = new FileInputStream("D:\\Study\\MCA\\sem II\\ajava\\Practical\\E-learning portal\\src\\main\\webapp\\data\\"+filename);

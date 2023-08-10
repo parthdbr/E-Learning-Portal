@@ -298,7 +298,7 @@
 			                    	<div class="row mb-3">
 			                          <label class="col-sm-2 col-form-label" for=course>In which course?</label>
 			                          <div class="col-sm-10">
-			                            <select id="course" class="form-control form-select" name="coursename">
+			                            <select id="course" class="form-control form-select" name="coursename" required >
 				                          <option>Select Course to add Content</option>
 				                          <%
 											try {
@@ -336,7 +336,7 @@
 			                        <div class="row mb-3">
 			                        	<label for="mtopic" class="col-sm-2 col-form-label">Main Topic</label>
 			                        	<div class="col-sm-10">
-			                        		<input type="text" name="mtopic" class="form-control" id="mtopic"/>
+			                        		<input type="text" name="mtopic" class="form-control" id="mtopic" required>
 			                        	</div>
 			                        </div>
 			                      	
